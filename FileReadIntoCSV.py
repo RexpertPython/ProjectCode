@@ -7,6 +7,7 @@ Created on Mon May 29 15:03:57 2023
 """
 import pandas as pd
 import csv
+import datetime
 
 # Define the file path
 file_path = "/Users/anas/Documents/UoR/MSc Project/Report/Logs/20230301_anon.log"
@@ -56,6 +57,6 @@ print("CSV file created successfully.")
         
 
 # Create a data frame from the extracted data
-df = pd.DataFrame(data_list)
-print(df.head())
+#df = pd.DataFrame(data_list)
+#print(df.head())
 # df.to_csv("/Users/anas/Documents/UoR/MSc Project/Report/Logs/Test.csv", index = False)
